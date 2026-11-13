@@ -1,0 +1,17 @@
+# Ignore everything at the top level, then allow only source code and project files. Data stays private.
+/*
+!/.gitignore
+!/README.md
+!/pyproject.toml
+!/requirements.txt
+!/requirements-lock.txt
+!/scripts/
+!/src/
+
+# Build and editor artifacts inside the allowed folders.
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+.DS_Store
+~$*
